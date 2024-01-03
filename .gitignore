@@ -1,0 +1,59 @@
+# Flutter/Dart specific
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+/build/
+/build.ninja
+/.flutter-plugins
+/.flutter-plugins-dependencies
+
+# macOS specific
+.DS_Store
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Android specific
+**/android/**/build/
+**/android/local.properties
+
+# iOS specific
+**/ios/**/Pods/
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/Flutter/AppFrameworkInfo.plist
+**/ios/Flutter/Debug.xcconfig
+**/ios/Flutter/Release.xcconfig
+
+# Linux specific
+**/linux/flutter/
+**/linux/flutter/generated_plugin_registrant.cc
+**/linux/flutter/generated_plugin_registrant.h
+**/linux/flutter/generated_plugins.cmake
+**/linux/my_application.cc
+**/linux/my_application.h
+**/linux/main.cc
+
+# Web specific
+**/web/flutter_service_worker.js
+
+# Visual Studio Code specific
+.vscode/
+
+# IntelliJ related
+*.iml
+.idea/
+
+# Gradle related
+.gradle/
+/captures/
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.history
+.macosx/
+.metadata
+*.md
+*.html
